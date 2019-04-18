@@ -199,7 +199,7 @@ def main(argv):
     SRTF_schedule, SRTF_avg_waiting_time =  SRTF_scheduling(process_list)
     write_output('SRTF.txt', SRTF_schedule, SRTF_avg_waiting_time )
     print ("simulating SJF ----")
-    SJF_schedule, SJF_avg_waiting_time =  SJF_scheduling(process_list, alpha = 0.52)
+    SJF_schedule, SJF_avg_waiting_time =  SJF_scheduling(process_list, alpha = 0.5)
     write_output('SJF.txt', SJF_schedule, SJF_avg_waiting_time )
 
 
